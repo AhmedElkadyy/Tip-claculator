@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Space Mono';
+    src: url('/Space_Mono/SpaceMono-Regular.ttf') format('woff2'),
+         url('/Space_Mono/SpaceMono-Italic.ttf') format('woff');
+    /* Additional font properties (optional) */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+ 
+
+
+.card {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    margin-left: 360px;
+    margin-top: 100px;  
+    
+
+
+
+    background-color:hsl(0, 0%, 100%);
+
+    font-size: 24px;
+  font-family: 'Space Mono', monospace;
+    
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+
+
+h2 {
+  font-size: 12px;
+  color:  hsl(186, 14%, 43%);
+}
+.input-group input {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 250px;
+  height: 30px;
+  grid-column: 1;
+
+
+}
+.card-body{
+  grid-row: 1;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 12px;
+  color:  hsl(186, 14%, 43%);
+}
+
+.results {
+  grid-row:2;
+
+  margin-top: 200px;
+
+  font-size: 12px;
+  color:  hsl(186, 14%, 43%);
+}
